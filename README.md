@@ -8,7 +8,7 @@ Measure atomic mean-square displacement amplitudes along arbitrary directions.
 ```
 $ git clone https://github.com/dwpaley/ADPcomp
 $ chmod +x ADPcomp/ADPcomp.py
-$ ln -s $PWD/ADPcomp/ADPcomp.py /usr/local/bin/orient
+$ ln -s $PWD/ADPcomp/ADPcomp.py /usr/local/bin/adpcomp
 ```
 
 
@@ -36,7 +36,7 @@ hkl br02 2 0 1  # measure br02 along reciprocal axis 001
 This file would be saved as `run.aip` and called with `$ ADPcomp.py run.aip`. The output
 is `run.aop` with the requested measurements appended to each line.
 
-An interactive mode is also available with `$ ADPcomp.py -i`.
+An interactive mode is also available with `$ adpcomp -i`.
 
 
 
